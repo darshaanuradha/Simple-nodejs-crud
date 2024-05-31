@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple CRUD</title>
+  </head>
+  <body>
+    <h1>Simple CRUD Application</h1>
+    <form action="/items" method="POST">
+      <input type="text" name="item" required />
+      <button class="addButton" type="submit">Add Item</button>
+    </form>
+    <ul id="itemList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>

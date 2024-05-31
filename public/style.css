@@ -1,0 +1,14 @@
+li{
+    margin: 10px;
+    background-color: aqua;
+    padding: 5px;
+}
+button{
+    margin: 10px;
+    background-color: green;
+    color: aliceblue;
+}
+.addButton{
+    background-color: blue;
+    padding: 5px;
+}
